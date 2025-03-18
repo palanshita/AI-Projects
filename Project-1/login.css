@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(rgba(0,0,50,0.3),rgba(0,0,50,0.3)),url(brain.jpeg);
+    margin: 0;
+    padding: 20px;
+  }
+  /*navbar*/
+nav{
+    display: flex;
+    padding: 9px;
+    justify-content: space-between;
+    align-items:center;
+}
+.logo{
+    color:white;
+    font-size: 22px;
+    text-decoration: none;
+}
+/*navbar end*/
+
+h2 {
+    color: #0b0b0b;
+  }
+  form {
+    background-color: #c6edf7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(97, 96, 96);
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 45px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #070707;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #391212;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    background-color:  #1ca9fa;
+    color: white;
+    padding: 10px 130px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #11699c;
+  }
