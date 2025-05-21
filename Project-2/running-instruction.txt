@@ -1,0 +1,4 @@
+IN CMD 
+cd C:\xampp\htdocs\Traffic-sign-Recognition
+venv\Scripts\activate
+python flask_app.py
